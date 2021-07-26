@@ -11,7 +11,7 @@ import CancaoController from "./controllers/CancaoController";
 import MesaController from "./controllers/MesaController";
 
 const app = new App({
-  port: 8088,
+  port: 8080,
   controllers: [CancaoController, MesaController],
   middlewares: [
     bodyParser.json(), 
